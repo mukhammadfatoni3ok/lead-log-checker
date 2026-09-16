@@ -1,2 +1,3 @@
 ERROR: gagal kirim notifikasi Telegram
 ERROR: token Telegram tidak valid
+ERROR: gagal validasi nomor WhatsApp

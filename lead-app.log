@@ -8,3 +8,5 @@ ERROR: token Telegram tidak valid
 INFO: proses filter lead selesai
 WARNING: ada lead tanpa nomor WhatsApp
 INFO: aplikasi tetap berjalan
+INFO: lead baru berhasil masuk
+ERROR: gagal validasi nomor WhatsApp

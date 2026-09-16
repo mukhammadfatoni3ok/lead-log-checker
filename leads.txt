@@ -6,3 +6,4 @@ Eko | eko@example.com | status=new
 Fajar | fajar@example.com | status=rejected
 Gita | gita@example.com | status=contacted
 Hana | hana@example.com | status=new
+Iwan | iwan@example.com | status=new
