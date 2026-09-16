@@ -1,0 +1,8 @@
+Andi | andi@example.com | status=new
+Budi | budi@example.com | status=contacted
+Citra | citra@example.com | status=new
+Dini | dini@example.com | status=qualified
+Eko | eko@example.com | status=new
+Fajar | fajar@example.com | status=rejected
+Gita | gita@example.com | status=contacted
+Hana | hana@example.com | status=new

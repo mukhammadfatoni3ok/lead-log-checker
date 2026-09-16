@@ -1,0 +1,10 @@
+INFO: Lead Collector mulai berjalan
+INFO: data lead berhasil dibaca
+INFO: webhook menerima lead baru dari website
+WARNING: koneksi spreadsheet agak lambat
+ERROR: gagal kirim notifikasi Telegram
+INFO: retry pengiriman notifikasi
+ERROR: token Telegram tidak valid
+INFO: proses filter lead selesai
+WARNING: ada lead tanpa nomor WhatsApp
+INFO: aplikasi tetap berjalan
