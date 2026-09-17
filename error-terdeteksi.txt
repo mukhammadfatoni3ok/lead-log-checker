@@ -1,3 +1,5 @@
 ERROR: gagal kirim notifikasi Telegram
 ERROR: token Telegram tidak valid
 ERROR: gagal validasi nomor WhatsApp
+2026-09-01 09:11:22 ERROR failed to send lead notification
+2026-09-01 09:13:44 ERROR invalid phone number format
