@@ -1,68 +1,47 @@
 # Lead Log Checker
 
-Lead Log Checker adalah mini project Linux dasar untuk mengecek data lead baru dan error dari log aplikasi.
+Lead Log Checker adalah project automation sederhana untuk mengecek daftar lead dan membaca log aplikasi menggunakan terminal.
 
-## Masalah yang Diselesaikan
+Project ini dibuat sebagai latihan dasar untuk belajar:
 
-Dalam automation lead, kita perlu tahu:
-- lead mana yang masih baru
-- apakah ada error pada proses aplikasi
-- berapa jumlah lead baru
-- berapa jumlah error
-
-Project ini membantu melakukan pengecekan sederhana melalui terminal Linux.
-
-## File Project
-
-- leads.txt: contoh data lead
-- lead-app.log: contoh log aplikasi
-- lead-log-checker.sh: script utama
-- leads-baru.txt: hasil filter lead dengan status new
-- error-terdeteksi.txt: hasil filter error dari log
-
-## Cara Menjalankan
-
-Beri izin script:
-
-chmod +x lead-log-checker.sh
-
-Jalankan script:
-
-./lead-log-checker.sh
-
-## Output Script
-
-Script akan menampilkan:
-- daftar lead baru
-- jumlah lead baru
-- daftar error
-- jumlah error
-- 5 baris terakhir log aplikasi
-
-## Skill yang Dipakai
-
-- Linux terminal
-- cat
-- grep
-- tail
-- wc
-- chmod
-- shell script
+- Command line
+- Shell script
+- File reading
+- Log checking
 - Git
+- GitHub
+- Dokumentasi portfolio
 
-## Catatan Belajar
+## Problem
 
-Project ini adalah langkah awal untuk membangun portfolio automation menuju n8n, OpenClaw, dan kerja remote.
+Dalam pekerjaan digital, data lead sering masuk dari banyak sumber. Tim perlu mengecek apakah ada lead baru dan apakah sistem berjalan normal.
 
-## Cara Mengecek Project
+Kalau dicek manual terus-menerus, prosesnya bisa memakan waktu.
 
-Sebelum menjalankan script, pastikan file berikut tersedia:
+## Solution
 
-- leads.txt
-- lead-app.log
-- lead-log-checker.sh
+Project ini membuat script sederhana yang membaca:
 
-Jalankan script dengan command:
+- File daftar lead
+- File log aplikasi
 
-```bash
-./lead-log-checker.sh
+Lalu menampilkan ringkasan ke terminal agar user bisa mengecek kondisi data lebih cepat.
+
+## Tools
+
+- Bash
+- Git
+- GitHub
+- Terminal
+- Text file
+
+## Project Structure
+
+```text
+lead-log-checker/
+├── README.md
+├── error-terdeteksi.txt
+├── lead-app.log
+├── lead-log-checker.sh
+├── leads-baru.txt
+└── leads.txt
