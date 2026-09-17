@@ -10,3 +10,7 @@ WARNING: ada lead tanpa nomor WhatsApp
 INFO: aplikasi tetap berjalan
 INFO: lead baru berhasil masuk
 ERROR: gagal validasi nomor WhatsApp
+2026-09-01 09:10:01 INFO lead form opened
+2026-09-01 09:11:22 ERROR failed to send lead notification
+2026-09-01 09:12:10 INFO retry notification success
+2026-09-01 09:13:44 ERROR invalid phone number format
