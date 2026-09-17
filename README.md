@@ -53,3 +53,16 @@ Script akan menampilkan:
 ## Catatan Belajar
 
 Project ini adalah langkah awal untuk membangun portfolio automation menuju n8n, OpenClaw, dan kerja remote.
+
+## Cara Mengecek Project
+
+Sebelum menjalankan script, pastikan file berikut tersedia:
+
+- leads.txt
+- lead-app.log
+- lead-log-checker.sh
+
+Jalankan script dengan command:
+
+```bash
+./lead-log-checker.sh
