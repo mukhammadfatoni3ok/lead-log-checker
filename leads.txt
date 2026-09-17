@@ -7,3 +7,5 @@ Fajar | fajar@example.com | status=rejected
 Gita | gita@example.com | status=contacted
 Hana | hana@example.com | status=new
 Iwan | iwan@example.com | status=new
+2026-09-01 | new lead | Rina | butuh automation untuk laporan sales
+2026-09-01 | new lead | Dimas | tanya harga integrasi chatbot
