@@ -58,3 +58,23 @@ echo ""
 echo "===================================="
 echo "SELESAI"
 echo "===================================="
+
+#!/bin/bash
+
+echo "===================================="
+echo " Lead Log Checker"
+echo "===================================="
+echo ""
+
+echo "1. Lead baru yang ditemukan:"
+echo "------------------------------------"
+grep -i "new lead" leads.txt
+
+echo ""
+echo "2. Error aplikasi yang ditemukan:"
+echo "------------------------------------"
+grep -i "error" lead-app.log
+
+echo ""
+echo "3. Pemeriksaan selesai."
+echo "Jika hasil kosong, berarti tidak ada data yang cocok."
