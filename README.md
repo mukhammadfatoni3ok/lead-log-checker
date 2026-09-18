@@ -40,8 +40,14 @@ Lalu menampilkan ringkasan ke terminal agar user bisa mengecek kondisi data lebi
 ```text
 lead-log-checker/
 ├── README.md
-├── error-terdeteksi.txt
-├── lead-app.log
-├── lead-log-checker.sh
-├── leads-baru.txt
-└── leads.txt
+├── .gitignore
+├── .env.example
+├── data/
+│   ├── leads.txt
+│   └── lead-app.log
+├── scripts/
+│   └── lead-log-checker.sh
+└── screenshots/
+    ├── output-terminal1.png
+    ├── output-terminal2.png
+    └── output-terminal3.png
