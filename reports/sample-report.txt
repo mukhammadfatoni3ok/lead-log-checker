@@ -1,0 +1,24 @@
+Lead Log Checker Report
+Date: 2026-09-20
+
+Total leads:
+11 data/leads.txt
+
+Latest leads:
+Gita | gita@example.com | status=contacted
+Hana | hana@example.com | status=new
+Iwan | iwan@example.com | status=new
+2026-09-01 | new lead | Rina | butuh automation untuk laporan sales
+2026-09-01 | new lead | Dimas | tanya harga integrasi chatbot
+
+Application log:
+ERROR: token Telegram tidak valid
+INFO: proses filter lead selesai
+WARNING: ada lead tanpa nomor WhatsApp
+INFO: aplikasi tetap berjalan
+INFO: lead baru berhasil masuk
+ERROR: gagal validasi nomor WhatsApp
+2026-09-01 09:10:01 INFO lead form opened
+2026-09-01 09:11:22 ERROR failed to send lead notification
+2026-09-01 09:12:10 INFO retry notification success
+2026-09-01 09:13:44 ERROR invalid phone number format

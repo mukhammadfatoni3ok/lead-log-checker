@@ -3,9 +3,13 @@
 .env.local
 .env.production
 
-# Ignore logs by default, but keep sample log for learning
+# Logs
 *.log
 !data/lead-app.log
+
+# Generated reports
+reports/*.txt
+!reports/sample-report.txt
 
 # Temporary files
 *.tmp
