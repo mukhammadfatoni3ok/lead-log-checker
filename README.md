@@ -1,7 +1,10 @@
 # Lead Log Checker
 
-Lead Log Checker adalah project automation sederhana untuk mengecek daftar lead dan membaca log aplikasi menggunakan terminal.
+![Project Status](https://img.shields.io/badge/status-learning_project-blue)
+![Shell Script](https://img.shields.io/badge/script-bash-green)
+![Portfolio](https://img.shields.io/badge/type-portfolio_project-orange)
 
+Lead Log Checker adalah project automation sederhana untuk mengecek daftar lead dan membaca log aplikasi menggunakan terminal.
 Project ini dibuat sebagai latihan untuk belajar:
 
 - Command line
@@ -83,7 +86,17 @@ Jalankan script dengan perintah:
 ```bash
 bash scripts/lead-log-checker.sh
 
+## Catatan Portfolio
 
+Project ini merupakan bagian dari perjalanan belajar saya untuk membangun keterampilan automation yang dapat digunakan dalam pekerjaan remote.
+
+Fokus pembelajaran:
+
+- Memahami dasar automation
+- Menulis shell script sederhana
+- Membaca file dan log
+- Menggunakan Git dan GitHub
+- Membuat dokumentasi project secara terstruktur
 
 
 
